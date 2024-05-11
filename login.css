@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+h1{
+   display: flex;
+   text-align: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px;
+   font-family:  "Press Start 2P", system-ui;
+   font-size: 28px;
+   overflow-wrap: break-word;
+   color: red;
+   
+}
+
+h1 span{
+    margin-top: 10px;
+}
+
+p{
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+    color: red;
+}
+
+.login{
+  text-align: center;
+  color: red;
+   
+}
+
+.login-user{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+    
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 4px darkred;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family:  "Press Start 2P", system-ui;
+    border-radius: 5px;
+    background-color: red;
+    color: aquamarine;
+    box-shadow:  2px 4px 4px #7a0101;
+    cursor: pointer;
+    
+}
+
+
+fieldset{
+   padding: 10px 20px 10px 20px;
+   margin: 20px 400px;
+   border-radius: 20px;
+   box-shadow: 4px 8px  #7a0101 ;
+   color: red;
+
+}
+
+a{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+    color: red;
+}
+
+footer{
+    margin-top: 180px;
+   
+}
